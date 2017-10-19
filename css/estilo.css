@@ -1,0 +1,88 @@
+html {
+	font-family: "Verdana";
+}
+
+h1 {
+	color:blue;
+	text-align: center;
+}
+
+#cabecera img {
+	width:10%;
+	display:block; /*Dispaly block + margin auto se centrará*/
+	/*margin:auto; ya no es necesario porque en los requerimientos, 
+	con los dos de abajo en este casocumple la misma función */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.elemento-menu {
+	display:inline;
+	list-style-type:none;
+}
+
+#menu {
+	text-align: center;
+	
+}
+
+#footer {
+	font-style: italic;
+	text-align: center;
+
+}
+
+aside > h3 + h4{
+	font-style: italic;
+	color: green;
+}
+
+aside h5 ~ p {
+	font-size:8pt;
+}
+
+aside h^5[title$=small]{
+	text-decoration: underline;
+}
+
+aside li[name="fork"]{
+	list-style-image: url('https://goo.gl/y0yaro');
+}
+
+nav:hover, ul:hover, li:hover{
+	color: green;
+}
+
+p.descripcion::first-letter{ 
+	font-size: 22pt; 
+	font-weight: bold;
+}
+
+article img{
+	width: 15%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*MANTENGA COMENTADA ESTA PARTE HASTA EL FINAL*/
+section#left {
+	float:left;
+	width:70%;
+	
+}
+aside#right {
+	float:right;
+	width:25%;
+}
+
+footer#footer {
+	clear:both;
+
+}
+
+
+article footer{
+	text-align: center;
+}
